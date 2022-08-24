@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="247px" height="218px" viewBox="0 0 247 218" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>Group</title>
+    <g id="MC3---ETCam-Kiyowo" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Onboarding-Screen" transform="translate(-72.000000, -218.000000)">
+            <g id="Group" transform="translate(72.000000, 218.000000)">
+                <line x1="124.5" y1="174.5" x2="124.5" y2="109.5" id="Path-2" stroke="#FFFFFF" stroke-width="5" stroke-linecap="round"></line>
+                <line x1="124.5" y1="174.5" x2="124.5" y2="109.5" id="Path-2" stroke="#FFFFFF" stroke-width="5" stroke-linecap="round" transform="translate(124.500000, 142.000000) rotate(90.000000) translate(-124.500000, -142.000000) "></line>
+                <path d="M123.5,0 L141.166,31.185 L124,61 L158.057,61 L247,218 L213,218 L194,185 L175,218 L0,218 L18.695,185 L54,185 L36.205,154.092 L123.5,0 Z M124,61 L54,185 L194,185 L124,61 Z" id="Combined-Shape" fill="#515151"></path>
+            </g>
+        </g>
+    </g>
+</svg>

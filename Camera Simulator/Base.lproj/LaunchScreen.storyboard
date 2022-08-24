@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="20037" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" launchScreen="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="0UZ-uI-RYG">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="20020"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="EbB-wY-9BK">
+            <objects>
+                <viewController id="0UZ-uI-RYG" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="bxn-c1-X1Y">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="SFa-HS-jPW">
+                                <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                                <subviews>
+                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="FixedLogo" translatesAutoresizingMaskIntoConstraints="NO" id="yy2-xY-VyZ">
+                                        <rect key="frame" x="74" y="289.5" width="266" height="317"/>
+                                        <constraints>
+                                            <constraint firstAttribute="width" secondItem="yy2-xY-VyZ" secondAttribute="height" multiplier="246:293" id="lys-qs-lI3"/>
+                                        </constraints>
+                                    </imageView>
+                                </subviews>
+                                <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <constraints>
+                                    <constraint firstItem="yy2-xY-VyZ" firstAttribute="centerX" secondItem="SFa-HS-jPW" secondAttribute="centerX" id="5rB-44-Re9"/>
+                                    <constraint firstItem="yy2-xY-VyZ" firstAttribute="centerY" secondItem="SFa-HS-jPW" secondAttribute="centerY" id="VsO-cp-3oF"/>
+                                </constraints>
+                            </view>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="4lt-FV-xCo"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstAttribute="bottom" secondItem="SFa-HS-jPW" secondAttribute="bottom" id="0Qn-qB-rRy"/>
+                            <constraint firstItem="SFa-HS-jPW" firstAttribute="top" secondItem="bxn-c1-X1Y" secondAttribute="top" id="959-wb-LH7"/>
+                            <constraint firstItem="SFa-HS-jPW" firstAttribute="leading" secondItem="4lt-FV-xCo" secondAttribute="leading" id="dpx-se-Dpi"/>
+                            <constraint firstAttribute="trailing" secondItem="SFa-HS-jPW" secondAttribute="trailing" id="gB6-W7-Gu4"/>
+                        </constraints>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="WcT-Cd-zqA" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-608.41121495327104" y="442.54859611231103"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="FixedLogo" width="266" height="266"/>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+    </resources>
+</document>
